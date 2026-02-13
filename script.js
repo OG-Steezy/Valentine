@@ -27,7 +27,7 @@ hiBtn.addEventListener("click", () => {
 
 // YES button
 yesBtn.addEventListener("click", () => {
-  message.textContent = "💙Perfect baby, I knew you would say yes❣ I can't wait to see you❣";
+  message.textContent = "💙Perfect baby, I knew you wouldn't say no❣ I can't wait til the day I see you again❣";
 
   document.body.classList.add("love-mode");
 
@@ -94,3 +94,4 @@ document.addEventListener("mousemove", (e) => {
     noBtn.style.left = Math.random() * (window.innerWidth - 100) + "px";
   }
 });
+
